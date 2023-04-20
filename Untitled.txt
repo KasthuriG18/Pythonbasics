@@ -1,0 +1,370 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "997a6fee",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "list=[\"kasthuri\",\"car\",\"money\",\"watch\",\"bike\",\"collage\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9c70688d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "list"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c9e7b3ff",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a=[\"a\",\"b\",\"c\",\"d\",\"e\",\"f\",\"g\",\"h\",\"i\",\"j\",\"k\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "40f83c3d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ecf3a851",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "b={1,2,3,4,5,6,7}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "abd2480c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8527c925",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "set={1,2,3,4,5,6,7,8,9,10}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d3b4eb74",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "set[1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3513e9f6",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "dic={\"key\":\"value\",\"key1\":\"value2\",\"key\":\"value2\"}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "07a30796",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "kasthuri={\"name\":\"kasthuri\",\"email_id\":\"kasthurigorige@gmail.com\",\"collage\":\"kmics\",\"place\":\"hyderabad\"}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2ad9c670",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "kasthuri"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f7379413",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "kasthuri.values()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4a8d2c96",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "kasthuri.keys()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2b047d1e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "kasthuri.values"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d00dc670",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "type(kasthuri)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2d8ad378",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "kasthuri[0]=\"krishna\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7963f6b3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "kasthuri"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b0e90536",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "kasthuri[1]=\"holiday\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2a2007a2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "kasthuri"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f4f83654",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "kasthuri[2]=\"movie\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8729383c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "kasthuri"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "847d91c6",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "t=(\"kasthuri\",\"collage\",\"car\",\"book\",\"bike\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1ecb3ff1",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "t"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d2f1a8e5",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "t[0]=\"rama\"\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4a38b35a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "t(0)=\"rama\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8c119871",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "t=[\"kasthuri\",\"collage\",\"car\",\"book\",\"bike\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2f4823de",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "t"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "73830eb3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "t[0]=\"rama\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "4dd2bb2b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "f=open(\"kasthuri.txt\",\"w\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "1ef8f3eb",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "64"
+      ]
+     },
+     "execution_count": 3,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "f.write(\"this is my first file writen in jupyter notebook on 1-april-2023\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "2583ce64",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "f.close()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8181dd5e",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "27593b95",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f62daac1",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.9"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
